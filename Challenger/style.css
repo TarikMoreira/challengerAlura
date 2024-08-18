@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    
+    
+}
+
+.logo_alura{
+    width: 31.09px;
+    height: 48px;
+    color: #0A3871;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text_area{
+    font-size: 2rem;
+    line-height: 3rem;
+    color: #0A3871;
+    width: 680px;
+    height: 48px;
+    top: 168px;
+    left: 240px;
+    border: none;
+    text-transform: lowercase;
+
+}
+
+.informacao{
+    width: 228px;
+    font-size: 1rem;
+    line-height: 18px;
+    color: #495057;
+    opacity: 80%;
+    
+    
+}
+
+::placeholder{color: #0A3871;}
+    .text_area:focus{
+        outline: none;
+    }
+
+
+.botoes{
+    width: 680px;
+    height: 67px;
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    margin-top: 430px;
+}
+
+.btn_encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 19.36px;
+    align-items:center ;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.btn_desencriptar{
+    width: 328px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+    background-color: #D8DFE8;
+    cursor: pointer;
+}
+
+.text_mensagem{
+    width: 400px;
+    height: 500px;
+    top: 40px;
+    left: 1000px;
+    border-radius: 24px;
+    color: black;
+    border: none;
+    background-image: url(./assets/High\ quality\ products\ 1\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+    font-size: 2rem;    
+    
+}
+
+.btn_copiar{
+    width: 336px;
+    height: 67px;
+    
+    
+    border: 1px solid #0A3871;
+    padding: 24px;
+    gap: 8px;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-right: 350px;
+    margin-left: 30px;        
+    background-color: white;
+    
+}
+
+
+
+
